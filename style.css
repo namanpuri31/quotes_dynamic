@@ -1,0 +1,130 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+body{
+    background-color: #6B5B95;
+}
+.container{
+    background-color: #6B5B95;
+    color: white;
+    /* display: block; */
+    position: absolute; 
+    top: 50%;
+    bottom:50%;
+    left: 24%;
+    right: 50%; 
+    margin:auto;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+#btn{
+    background-color:rgb(201, 230, 240);
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 25px;
+    padding: 10px 10px;
+    margin: 50px 0px;
+
+}
+#quotes{
+    font-size: 180%;
+    
+}
+#author{
+    font-size: 130%;
+    position: absolute;
+    left: 70%;
+}
+#logo{
+    position: absolute;
+    /* background-color: aquamarine; */
+    color:white;
+    font-size: 50px;
+    left: 3%;
+    top: 5%;
+}
+#share{
+    cursor: pointer;
+    background-color:#6B5B95;
+    color: white;
+    font-size: 50px;
+    border: 2px solid #6B5B95;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    display: flex;
+    
+}
+#share:hover{
+    font-weight: bolder;
+    font-size: 55px;
+}
+@media (min-width:300px) and (max-width:900px) {
+    #logo{
+        position: absolute;
+        /* background-color: aquamarine; */
+        color:white;
+        font-size: 35px;
+        top: 1%;
+    }
+    
+.container{
+    background-color: #6B5B95;
+    color: white;
+    /* display: block; */
+    position: absolute; 
+     top: 0%;
+    bottom:0%;
+    left: 0%;
+    right: 0%;  
+    margin:auto;
+    padding: 46px 50px;
+    width:65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+#quotes{
+    font-size: 120%;
+    margin: 40px 0px;
+    
+}
+#author{
+    font-size: 80%;
+    position: absolute;
+    left: 70%;
+    right: 0px;
+    width: 140px;
+    height: 40px;
+    margin: 9px 126px -2px -28px;
+}
+#btn{
+    background-color:rgb(201, 230, 240);
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 50px 0px;
+
+}
+#share{
+    cursor: pointer;
+    background-color:#6B5B95;
+    color: white;
+    font-size: 35px;
+    border: 2px solid #6B5B95;
+    position: absolute;
+    right: 0%;
+    top: 1%;
+}
+
+}
